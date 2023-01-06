@@ -1,0 +1,271 @@
+section {
+    padding-top: 5rem;
+}
+@font-face {
+    font-family: caladea;
+    src: url(assets/Font/Caladea-Regular.ttf);
+}
+
+
+
+
+/* Start Navbar */
+
+
+
+/* End Navbar */
+
+
+
+/* Start Jumbotron */
+
+.jumbotron {
+    padding: 200px 50px;
+    background-color: #05022b;
+}
+.jumbotron h1 p {
+    color: white;
+}
+.overlay {
+    font-family: caladea;
+    background-color: #11011f;
+    padding: 150px 20px 150px 50px;
+    margin-right: 600px;
+    margin-left: -50px;
+    margin-top: -140px;
+    border-radius: 0 200px 200px 0;
+}
+.overlay p {
+    font-size: 20px;
+    margin-left: 40px;
+}
+.btn-jmbtrn {
+    margin-left: 10px;
+    padding: 5px 50px 5px 50px;
+}
+.foto {
+    margin-top: -500px;
+    margin-right: 20px;
+    width: 400px;
+    transform: rotateY(180deg);
+}
+
+/* End Jumbotron */
+
+
+
+/* Start Service */
+
+#service {
+    background-color: #05022b;
+    padding-bottom: 130px;
+}
+.card-service {
+    padding: 20px 0 20px 0;
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: #0a063d;
+    box-shadow: 1px 1px 4px rgb(48, 47, 47);
+}
+
+/* End Service */
+
+
+
+/* Start Price */
+
+#price {
+    background-color: #05022b;
+    padding-bottom: 100px;
+}
+.harga {
+    font-size: 50px;
+}
+.judul {
+    font-size: 30px;
+    color: rgb(228, 6, 6);
+    text-decoration-line: underline;
+}
+.dafhar {
+    border: 3px dashed rgb(22, 4, 71);
+}
+
+/* End Price */
+
+
+
+/* Start Contact */
+
+#contact {
+    background-color: rgb(3, 1, 24);
+    padding-bottom: 100px;
+}
+.card {
+    box-shadow: 5px 5px 7px black;
+}
+.jrk {
+    padding-right: 20px;
+    margin: auto 20px;
+}
+.tmbh {
+    padding-top: 150px;
+}
+.ggmap {
+    margin-right: 100px
+}
+.card-text {
+    text-decoration: none;
+}
+
+.medsos1 {
+    background-color: #151031;
+    margin-top: 20px;
+    margin-right: 70px;
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 6px black;
+}
+.medsos2 {
+    background-color: #151031;
+    margin-right: 70px;
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 6px black;
+}
+.medsos3 {
+    background-color: #151031;
+    margin-right: 70px;
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 6px black;
+}
+.medsos4 {
+    background-color: #151031;
+    margin-right: 70px;
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 6px black;
+}
+
+.medsos1:hover {
+    background: rgb(158, 25, 1);
+    box-shadow: 0 0 3px #ffb865,
+                0 0 6px #ffb865,
+                0 0 12px #ffb865,
+                0 0 24px #ffb865;
+}
+.medsos2:hover {
+    background: rgb(1, 77, 20);
+    box-shadow: 0 0 3px #cae277,
+                0 0 6px #cae277,
+                0 0 12px #cae277,
+                0 0 24px #cae277;
+}
+.medsos3:hover {
+    background: rgb(0, 0, 0);
+    box-shadow: 0 0 3px #bebdac,
+                0 0 6px #bebdac,
+                0 0 12px #bebdac,
+                0 0 24px #bebdac;
+}
+.medsos4:hover {
+    background: rgb(97, 1, 1);
+    box-shadow: 0 0 3px #f7cee0,
+                0 0 6px #f7cee0,
+                0 0 12px #f7cee0,
+                0 0 24px #f7cee0;
+}
+.wrntxt {
+     color: darkgrey;
+}
+.card1 a {
+    text-decoration: none;
+}
+
+/* End Contact */
+
+
+
+/* Start Footer */
+
+#footer {
+    background-color: #1a1919;
+    color: #808080;
+}
+#footer img {
+    margin-top: -120px;
+    margin-left: -60px;
+}
+.namame {
+    margin-top: -20px;
+}
+#footer h3 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: -50px;
+}
+#footer ul {
+    font-size: 10px;
+    list-style: none;
+    padding: 0;
+    color: #808080;
+    margin-left: 20px;
+}
+#footer ul li i {
+    margin-right: 5px;
+}
+#footer a {
+    color: #808080;
+}
+#footer ul li a {
+    text-decoration: none;
+}
+#footer iframe {
+    margin-left: 20px;
+}
+
+/* End Footer */
+
+
+
+
+
+/* Responsive 600px Mobile */
+
+@media only screen and (max-width: 600px) {
+    .foto {
+        display: none;
+    }
+    .overlay {
+        padding: 70px 40px 100px 40px;
+        border-radius: 0 0 300px 300px;
+        margin: -150px 0 0 0;
+        text-align: center;
+    }
+    .overlay p {
+        font-size: 20px;
+        margin-left: auto;
+    }
+    .btn-jmbtrn {
+        margin-bottom: 10px;
+    }
+
+    .ggmap {
+        width: 400px;
+        height: 400px;
+    }
+    .namee {
+        margin-bottom: 100px;
+    }
+
+    .logoo {
+        margin-left: 60px;
+    }
+    .kontak {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+    .peta {
+        margin-top: 80px;
+    }
+    .copyright {
+        margin-top: 50px;
+    }
+}
